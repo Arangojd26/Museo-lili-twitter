@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row justify-content-center mt-5 pt-5">
+            <div class="col-md-7">
+                <h1 class="display-4">Publica con el hashtag #testUAO</h1>
+                <hr class="bg-info">  
+                <p class="pb-0 mb-0">Escribe tu usuario de Twitter para comprobar</p> 
+                <p class="text-danger small pt-0 mt-0">*Todos los campos son obligatorios</p> 
+                <div class="alert alert-success d-none" id="mensajeExito">Publicación detectada</div>
+                <div class="alert alert-danger d-none" id="mensajeError"></div>
+                <form id="formulario-twitter"novalidate method="POST">
+                    <div class="row form-group">
+                        <label for="userTwit" class="col-form-label col-md-4">Usuario de Twitter:</label>
+                        <div class="col-md-8">
+                            <input type="text" name="userTwit" value="" id="userTwit" class="form-control" placeholder="Usuario" required autofocus="">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-info">Comprobar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+   
+    
+    <button id="test">Get from Server</button>
+
+    <h1 id="messageGet"></h1>
+    
+    
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="app/script.js"></script>
+</body>
+</html>

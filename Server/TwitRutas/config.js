@@ -1,4 +1,3 @@
-const Instagram = require('node-instagram').default;
 const Twitter = require('twit');
 
 //const port = proccess.env.PORT || 3000;

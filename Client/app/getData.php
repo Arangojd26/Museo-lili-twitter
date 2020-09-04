@@ -1,7 +1,7 @@
 <?php
 
 $user = $_POST["userTwit"];
-$service_url = 'https://SmartHealth-diegofernvalencia307387.codeanyapp.com/twitter/tweets';
+$service_url = 'http://localhost:3000/twitter/tweets';
 
 
 $state = false;
@@ -61,10 +61,4 @@ if(empty($_POST["userTwit"])){
 }
 
 
-// //Seteamos el header de "content-type" como "JSON" para que jQuery lo reconozca como tal
-// header('Content-Type: application/json');
-
-
-// //Devolvemos el array pasado a JSON como objeto
-// echo json_encode($data, JSON_FORCE_OBJECT);
 ?>
